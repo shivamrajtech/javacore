@@ -1,11 +1,11 @@
 package controlStructure;
-import  java.util.Scanner;
+//import  java.util.Scanner;
 
 public class MainSw {
     public static void main(String[] args) {
 
 
-      Scanner scanner = new Scanner(System.in);
+    //  Scanner scanner = new Scanner(System.in);
       /*
         String orderedFood =scanner.nextLine();
         switch  (orderedFood){
@@ -25,7 +25,7 @@ public class MainSw {
 
         }*/
 
-        for(  int i = scanner.nextInt();i<12;i+=1){
+        /*for(  int i = scanner.nextInt();i<12;i+=1){
             switch (i){
                     case 0:
                     case 1:
@@ -50,9 +50,21 @@ public class MainSw {
             }
         }
 
+         */
 
-    }
+                // Implement your code here
+                for(int i=5; i>0;i-=1){
+                    for(int j=0; j<i;j+=1){
+                        System.out.print("*");
+                    }
+                    System.out.print("\n");
+                }
+            }
+        }
 
 
-}
+
+
+
+
 

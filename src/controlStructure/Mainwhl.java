@@ -9,13 +9,15 @@ public class Mainwhl<n> {
         }
 
         */
-        int i =100;
+      /*  int i =100;
         int j =200;
 
         while(++i <= --j){
             System.out.println("no is:-"+ i);
 
         }
+
+       */
     }
 
 }
